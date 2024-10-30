@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: aquamarine;
+}
+main{
+    background-color: cyan;
+}
+nav{
+    background-color: gold;
+}
+footer{
+    background-color: purple;
+    color: white;
+}
+@media screen and (max - width : 550px){
+    header, footer, nav, main{
+        width: 100%;
+    }
+}
